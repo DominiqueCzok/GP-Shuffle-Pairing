@@ -1,0 +1,49 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    max-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+header {
+    
+    height: 200px;
+    color: #fff;
+    padding: 8px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+
+    background:linear-gradient(#51361A 0 0) top/100% calc(100% - 30px) no-repeat, radial-gradient(circle farthest-side,#51361A 98%, #0000) bottom/55.50px 60px repeat-x;
+  
+
+}
+h1 {
+    font-family: "Lobster";
+    font-size: 4rem;
+    color: rgb(211, 188, 243);
+    text-shadow: 2px 2px 2px hotpink;
+}
+
+.create {
+    padding-top: 2rem;
+    align-items: center;
+    text-align: center;    
+}
+
+
+
